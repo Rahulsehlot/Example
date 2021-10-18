@@ -1,0 +1,97 @@
+.navigation {
+  background-color: rgb(42, 47, 174);
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  width: 110px;
+  height: 105%;
+  float: left;
+  width: 100vw;
+  overflow: hidden;
+}
+.navbar-container {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  width: 110px;
+  height: 100vh;
+  overflow: hidden;
+}
+.nav-menu {
+  /* display: flex;
+  flex-direction: column; */
+  align-items: center;
+  justify-items: center;
+  list-style: none;
+  text-decoration: none;
+  justify-content: end;
+  /* grid-gap: 20px; */
+}
+.nav-menu {
+  grid-template-columns: repeat(4, auto);
+  list-style: none;
+  text-align: center;
+  width: 200px;
+  /* margin-left: 0.5rem; */
+  height: 100vh;
+  margin-top: 25px;
+  margin-right: 1rem;
+}
+
+.nav-items {
+  justify-self: start;
+  /* margin: 25px; */
+  padding: 10px;
+  /* margin-left: 10px; */
+  height: 49.5px;
+  /* align-items: flex-start; */
+}
+
+.nav-menu :hover {
+  background-color: tomato;
+}
+
+.profile {
+  height: 35px;
+  width: 35px;
+}
+
+.dashboard {
+  height: 35px;
+  width: 35px;
+}
+
+.details {
+  height: 35px;
+  width: 35px;
+}
+
+.timesheet {
+  height: 35px;
+  width: 35px;
+}
+
+.callender {
+  height: 35px;
+  width: 35px;
+}
+
+.leave {
+  height: 35px;
+  width: 35px;
+}
+
+.setting {
+  height: 35px;
+  width: 35px;
+}
+
+.help {
+  height: 35px;
+  width: 35px;
+}

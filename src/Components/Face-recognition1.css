@@ -1,0 +1,152 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.layout {
+  background-color: #f4f6f8;
+  height: 100%;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  margin-left: 112px;
+}
+.logo {
+  width: fit-content;
+  height: fit-content;
+  align-items: center;
+  grid-area: logo;
+  display: flex;
+  position: relative;
+  left: 10vh;
+  top: 8vh;
+}
+
+.companyName {
+  background-color: #f4f6f8;
+  color: #3a41d0;
+  font-size: 25px;
+  font-style: Bold;
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 86vh;
+  top: 0.51vh;
+  font-weight: bolder;
+  width: fit-content;
+}
+
+.main {
+  background-color: transparent;
+}
+.facerecognition {
+  background-color: #fefffe;
+  color: #fefffe;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+  top: 75px;
+  left: 80px;
+  width: 431px;
+  height: 150px;
+  border-radius: 8px;
+  font-weight: bolder;
+}
+
+.faceId {
+  background-color: transparent;
+  color: black;
+  height: fit-content;
+  position: relative;
+  left: 89px;
+}
+.eclipse {
+  background-color: transparent;
+}
+.signinText {
+  background-color: transparent;
+  color: #3a41d0;
+  margin: 55px;
+}
+.signInViaEmpID {
+  background-color: #3a41d0;
+  color: #fefffe;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+  top: 65px;
+  left: 48px;
+  width: 431px;
+  height: 150px;
+  margin: 2rem;
+  border-radius: 8px;
+  font-weight: bolder;
+}
+.empId {
+  background-color: transparent;
+  position: relative;
+  left: 90px;
+  width: 46px;
+  height: 53px;
+}
+.weclipse {
+  background-color: transparent;
+}
+.signinEmail {
+  background-color: #3a41d0;
+  color: white;
+  margin: 45px;
+}
+
+.newUser {
+  background-color: #fe6436;
+  color: #fefffe;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  position: absolute;
+  top: 173px;
+  left: 650px;
+  width: 135px;
+  height: 321px;
+  margin: 2rem;
+  border-radius: 8px;
+  font-weight: bolder;
+}
+
+.registerUser {
+  background-color: transparent;
+  align-items: center;
+  position: relative;
+  top: 40px;
+  left: 8px;
+}
+
+.webcam {
+  background-color: black;
+  height: fit-content;
+  width: fit-content;
+  right: 0;
+  border-radius: 50px;
+}
+.inlineVideo {
+  background-color: black;
+  position: absolute;
+  top: 120px;
+  right: 0;
+  height: 405px;
+  width: 405px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border: none;
+}
+
+.companySignup {
+  background-color: transparent;
+  font-weight: bolder;
+  color: #2a2fae;
+  position: relative;
+  top: 120px;
+  left: 1150px;
+  width: fit-content;
+}

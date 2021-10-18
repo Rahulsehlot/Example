@@ -1,0 +1,98 @@
+.layoutTimeSheet {
+  /* background-color: black; */
+  background-color: #f4f6f8;
+  height: 100vh;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  margin-left: 112px;
+  display: grid;
+  grid-template-rows: 55px 98px 47px 375px;
+  grid-template-columns: 73px 915px;
+  grid-gap: 5px;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.logoTimeSheet {
+  background-color: transparent;
+  /* color: white; */
+  width: fit-content;
+  align-items: center;
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+
+.logoTimeSheet {
+  background-color: transparent;
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+
+.companyNameTimeSheet {
+  background-color: #f4f6f8;
+  color: #3a41d0;
+  font-size: 25px;
+  font-style: Bold;
+  align-items: center;
+  font-weight: bolder;
+  width: fit-content;
+  display: inline-block;
+  white-space: nowrap;
+  grid-row: 2/3;
+  grid-column: 2;
+  margin-top: 50px;
+  margin-left: 705px;
+}
+
+.mainTimeSheet {
+  background-color: transparent;
+}
+
+.headersTimeSheet {
+  background-color: transparent;
+  color: #3a41d0;
+  font-weight: bolder;
+  position: absolute;
+  top: 180px;
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+
+.description {
+  background-color: transparent;
+  margin: 60px;
+}
+
+.fullTime {
+  margin: 60px;
+  background-color: transparent;
+}
+
+.partTime {
+  background-color: transparent;
+  margin: 60px;
+}
+
+.overTime {
+  background-color: transparent;
+  margin: 60px;
+}
+
+.total {
+  background-color: transparent;
+  margin: 60px;
+}
+
+.scroll {
+  background-color: #63647a;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  width: 500px;
+  height: 100px;
+  top: 70%;
+  overflow: scroll;
+}

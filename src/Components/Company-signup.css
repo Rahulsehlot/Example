@@ -1,0 +1,208 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.layout {
+  background-color: #f4f6f8;
+  height: 100vh;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  margin-left: 112px;
+  display: grid;
+  grid-template-rows: 62px 98px 47px 291px;
+  grid-template-columns: 28px 137px 857px 5px 1fr;
+  grid-gap: 5px;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.logoCompanySignup {
+  background-color: transparent;
+  width: fit-content;
+  height: fit-content;
+  align-items: center;
+  z-index: 100;
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+
+.logo-picture {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  z-index: 100;
+  margin-left: 55px;
+}
+.companyName-company-signup {
+  background-color: #f4f6f8;
+  color: #3a41d0;
+  font-size: 25px;
+  font-style: Bold;
+  align-items: center;
+  font-weight: bolder;
+  width: 50px;
+  display: inline-block;
+  white-space: nowrap;
+  grid-row: 2/3;
+  grid-column: 3/4;
+  margin-left: 625px;
+  margin-top: 55px;
+}
+.formCompanySignup {
+  background-color: transparent;
+  height: fit-content;
+  width: auto;
+  top: 20px;
+}
+
+.signup {
+  background-color: transparent;
+  /* grid-row: 2/3; */
+  grid-column: 3/4;
+  grid-row: 4/5;
+}
+.companyName1 {
+  background-color: white;
+  flex-direction: column;
+  margin: 10px;
+  margin-right: 25px;
+  padding: 12px;
+  margin-left: -8px;
+  width: 250px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+}
+/* .companyName2 {
+  background-color: white;
+  margin: 10px;
+  padding: 1%;
+  width: 250px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+} */
+
+.uploadLogo {
+  background-color: #fe6436;
+  color: white;
+  width: 560px;
+  height: 50px;
+  border: none;
+  margin-left: -10px;
+  margin-right: 20px;
+  margin-top: 70px;
+  border-radius: 5px;
+  display: inline-block;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.submit1 {
+  background-color: #c92d2d;
+  color: white;
+  width: 272px;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  margin-left: -5px;
+  margin-top: 03px;
+  cursor: pointer;
+}
+
+.btn-submit {
+  background-color: transparent;
+  width: fit-content;
+  margin-left: 580px;
+  margin-top: -63px;
+}
+
+::placeholder {
+  color: #3a41d0;
+  font-weight: bolder;
+  padding: 20px;
+  margin: 10vh;
+  size: 10px;
+  width: fit-content;
+}
+
+label.myLabel input[type='file'] {
+  display: none;
+}
+
+.myLabel {
+  border-radius: 4px;
+  display: inline-block;
+  background-color: #fe6436;
+  color: white;
+  width: 570px;
+  height: 60px;
+  margin-left: -10px;
+  margin-right: 25px;
+  margin-top: 11px;
+  display: inline-block;
+  text-align: center;
+  /* overflow: hidden; */
+  font-size: 12px;
+  cursor: pointer;
+}
+.myLabel span {
+  display: flex;
+  margin-top: 20px;
+  background: transparent;
+  align-content: center;
+  justify-content: center;
+}
+
+.profileLogo {
+  height: 220px;
+  width: 272px;
+  /* margin-left: 0px; */
+  background-color: grey;
+  border-radius: 5px;
+}
+
+.img-holder {
+  height: 220px;
+  width: 200px;
+  margin-left: 575px;
+  margin-top: -298px;
+  background-color: transparent;
+  z-index: -100;
+}
+
+.reset {
+  background-color: transparent;
+  margin-left: 5px;
+  margin-top: -215px;
+}
+
+/* .icon {
+  background-color: transparent;
+} */
+
+.icon,
+i {
+  border: 20px;
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+  /* padding: 1px; */
+  background-color: white;
+  margin-left: 815px;
+  /* margin-top: -598px; */
+  border: 4px solid white;
+  border-radius: 20px;
+}
+
+.icon,
+fas fa-times {
+  margin-left: 4px;
+}
+
+.fa-times:before {
+  content: '\f00d';
+  margin-left: 2px;
+}

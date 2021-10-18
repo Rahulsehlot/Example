@@ -1,0 +1,84 @@
+.navigation {
+  background-color: rgb(42, 47, 174);
+  /* display: grid; */
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  width: 110px;
+  /* height: 105%; */
+
+  display: grid;
+  grid-template-rows: 58px 539px;
+  grid-template-columns: 132px;
+  grid-gap: 5px;
+}
+.navbar-container {
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  width: 100px;
+  grid-row: 2;
+  grid-column: 1/2;
+}
+.nav-menu {
+  align-items: center;
+  justify-items: center;
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav-menu {
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  width: fit-content;
+  margin-right: 1rem;
+}
+
+.nav-items {
+  justify-self: start;
+  margin: 25px;
+  margin-left: 10px;
+}
+
+.nav-profile {
+  background-color: black;
+  grid-area: profile;
+}
+
+.nav-dashboard {
+  background-color: blueviolet;
+  grid-area: dashboard;
+}
+
+.nav-detail {
+  background-color: yellow;
+  grid-area: detail;
+}
+
+.nav-timesheet {
+  background-color: yellowgreen;
+  grid-area: timesheet;
+}
+
+.nav-callender {
+  background-color: orange;
+  grid-area: callender;
+}
+
+.nav-leave {
+  background-color: purple;
+  grid-area: leave;
+}
+
+.nav-setting {
+  background-color: white;
+  grid-area: setting;
+}
+
+.nav-help {
+  background-color: green;
+  grid-area: contactus;
+}
